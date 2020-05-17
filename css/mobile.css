@@ -15,7 +15,7 @@ body {
 
 header { 
     width: 100%;
-    height: 150px;
+    height: 80px;
     background-color: #111111;
     position: sticky;
     top: 0;
@@ -37,16 +37,20 @@ header {
 
 .product { 
 	height: 80px;
-	width: 100%; 
+	width: 90%; 
 	background-color: #111;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1em;
 	position: relative;
 	filter: opacity(80%);
     transition: .4s;
     text-align: center;
-    padding: 10px;
+    padding-top: 20px;
     border: black 8px solid;
     border-top: none;
+    border-radius: 0 50px 30px 15px;
+    margin: 10px auto;
+
 }
 
 .product100 { 
