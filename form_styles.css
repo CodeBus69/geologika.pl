@@ -1,0 +1,61 @@
+.form-site p, .form-site h1{
+    text-align: center;
+  }
+  .form-site form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-site .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .form-site .row :nth-child(2) {
+    margin-left:30px;
+  }
+  .form-site textarea {
+    outline: none;
+    box-shadow: none;
+    border-radius: 0px;
+    border: 2px solid #000;
+    background: transparent;
+    margin-bottom: 40px;
+    padding: 5px;
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;  
+  }
+  .form-site input[type='text'] {
+    outline: none;
+    box-shadow: none;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 2px solid #000;
+    background: transparent;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    padding: 5px 0;
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .form-site input[type='submit'] {
+    width:100%;
+    padding:5px 15px;
+    background:white;
+    border:2px solid;
+    cursor:pointer;
+    font-weight: 600;
+    transition: .3s;
+  }
+
+  .form-site input[type='submit']:hover { 
+    background: black;
+    color: white;
+  }
+
+  .contact { 
+      width: 60%;
+      margin: 150px auto;
+  }

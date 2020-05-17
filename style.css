@@ -1,0 +1,282 @@
+* { 
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box; 
+	font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+  }
+
+header { 
+	width: 100%; 
+	background-color: #111; 
+	color: whitesmoke; 
+	position: relative; 
+	filter: opacity(90%);
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+
+
+.logo { 
+	position: absolute;
+	left: 100px;
+	top: 50%;
+	transform: translate(0, -50%);
+	transition: .3s;
+}
+
+.logo h1 { 
+	transition: .3s;
+	font-size: 2em;
+}
+
+span { 
+	color:#87c47e;
+}
+
+.typing { 
+	margin-left: 50px;
+}
+.nav li { 
+	float: right; 
+}
+
+a { 
+	text-decoration: none;
+	color: whitesmoke;
+	height: 50px;
+}
+
+.nav a li { 
+	margin: 10px;
+	font-size: 1.2em;
+	list-style-type: none;
+}
+
+.nav a li .bigger { 
+	font-size: 2em;
+}
+
+.nav a li:hover { 
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.nav ul { 
+	width: 70%;
+	bottom: 50%; 
+	transform: translate(0, 50%);
+	position: absolute; 
+	right: 20px;
+	text-align: center;
+}
+
+.greeting { 
+	background-image: url("background.png");
+	background-size: cover;
+	height: 85vh; 
+	width: 100%;
+	transition: .5s;
+	position: relative;
+	
+}
+
+.product h1 { 
+	text-align: right;
+	margin: 0 auto; 
+	width: 90%;
+	position: absolute;
+	top: 15%;
+}
+
+.product h2 { 
+	position: absolute;
+	top: 50%;
+}
+
+.products { 
+	position: absolute;
+	right: 0; 
+	width: 25%;
+	height: 100%;
+	font-size: 1.3em;
+}
+
+.product { 
+	height: 33.3%; 
+	width: 100%; 
+	background-color: #111;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	position: relative;
+	filter: opacity(80%);
+	background: rgb(9,9,121);
+	background: linear-gradient(90deg, rgba(9,9,121,0) 0%, rgba(0,0,0,1) 75%);
+	transition: .4s;
+}
+
+.product:hover {
+	filter: opacity(100%);
+}
+
+.product100 { 
+	filter: opacity(85%);
+}
+
+.description { 
+	width: 100%; 
+	height: 60vh; 
+}
+
+main { 
+	min-height: 85vh;
+	position: relative;
+}
+.height15 { 
+	height: 15vh;
+}
+.height6 { 
+	height: 6vh; 
+}
+
+.post { 
+	background-color: white;
+	width: 75%; 
+	margin: 50px auto;
+	position: relative;
+}
+
+.post h1 { 
+	font-size: 120px;
+	position: absolute;
+	filter: opacity(10%);
+	transition: .3s;
+}
+
+.post h1:hover{ 
+	filter: opacity(65%);
+}
+
+p { 
+	text-align: justify;
+	padding: 0 50px;
+	font-size: 1.3em;
+}
+
+.post-right h1 { 
+	right:0;
+}
+
+footer { 
+	height: 700px;
+	background-color: #111;
+	color: whitesmoke;
+	filter:opacity(90%);
+	position: relative;
+	text-align: center;
+}
+
+.footercontent { 	
+	text-align: center;
+	width: 65%; 
+	height: 65%;
+	margin: auto; 
+	padding: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color:black;
+}	
+
+.footercontent h2, .footercontent p { 
+	padding: 10px;
+}
+.footercontent p { 
+	font-size: 1em;
+	text-align: center;
+}
+.list li { 
+	clear:both;
+	margin-left: 75px;
+}
+
+.list {
+	width: 75%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.list p { 
+	font-size: 1.5em;
+}
+
+.bigger { 
+	font-size: 3em;
+}
+
+hr { 
+	width: 65%;
+	right: 0;
+}
+
+hr { 
+	margin: 150px auto;
+}
+
+.find_us { 
+	width: 60%;
+	margin: 0 auto;
+}
+.map { 
+	width: 100%; 
+	height: 60vh;
+	border: none;
+	margin: 40px auto;
+}
+
+.find_us h1, .find_us p { 
+	text-align: center;
+}
+
+.ol { 
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	width: 60%;
+	font-size: 3em;
+	transform: translate(0, -50%);
+	color: white;
+	
+}
+
+.blur_background { 
+	backdrop-filter: blur(12px);
+	color: white;
+}
+
+
+.ol h1 { 
+	font-size: 1.7em;
+	backdrop-filter: blur(0);
+}
+
+.ol:hover { 
+	color: whitesmoke !important;
+}
+
+.smaller_font { 
+	font-size: 2.2em;
+}
+
+
+h4 { 
+	color: #111;
+}
+
+.centerme { 
+
+}
