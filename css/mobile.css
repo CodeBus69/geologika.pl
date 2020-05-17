@@ -40,7 +40,7 @@ header {
 	width: 90%; 
 	background-color: #111;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 1em;
+    font-size: 0.8em;
 	position: relative;
 	filter: opacity(80%);
     transition: .4s;
@@ -48,7 +48,7 @@ header {
     padding-top: 20px;
     border: black 8px solid;
     border-top: none;
-    border-radius: 0 50px 30px 15px;
+    border-radius: 50px 50px 30px 30px;
     margin: 10px auto;
 
 }
@@ -129,4 +129,37 @@ hr {
 
 .contact h1, .find_us h1 { 
     margin: 30px 0;
+}
+
+.typing { 
+    display: none;
+}
+
+footer { 
+	height: 250px;
+	background-color: #111;
+	color: whitesmoke;
+	filter:opacity(90%);
+	position: relative;
+	text-align: center;
+}
+
+.footercontent { 	
+	text-align: center;
+	width: 80%; 
+	height: 80%;
+	margin: auto; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color:black;
+}	
+
+.footercontent h2, .footercontent p { 
+	padding: 10px;
+}
+.footercontent p { 
+	font-size: 1em;
+	text-align: center;
 }
